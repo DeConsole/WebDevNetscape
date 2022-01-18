@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <style>
+
+        form {
+            margin: auto 100px;
+            width: 500px;
+            color: darkblue;
+            padding: 1em;
+            border: 2px solid #CCC;
+            border-radius: 1em;
+            float: right;
+            background-color: #CCCCCC;
+            text-align: center;
+        }
+        label {
+            display: inline-block;
+            width: 150px;
+            height: 30px;
+            text-align: right;
+            padding: auto 50px;
+        }
+        input{
+            width: 300px;
+            box-sizing: border-box;
+            border: 1px solid #999;
+            height: 30px;
+
+
+        }
+
+        select {
+            display: inline-block;
+            width: 300px;
+            height: 30px;
+            text-align: right;
+            padding: auto 50px;
+
+        }
+        h1{
+            float: left;
+            text-align: left;
+            margin-top: 20;
+           margin-left: 20px;
+            color: white;
+        }
+        body{
+            background-image: url("images/hdbackground.jpg");
+            background-repeat: no-repeat;
+            background-size:     cover;                      /* <------ */
+
+        }
+        ul {
+            list-style-type: none;
+            float: right;
+            margin-top: 20;
+            padding: 0;
+            text-align: right;
+            font-size: 20px;
+            font-family: "Alegreya Sans",serif;
+            overflow: hidden;
+            margin-right: 100px;
+
+        }
+        li {
+            display: inline;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: darkblue;
+        }
+
+        a {
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Navigation</title>
+</head>
+<body>
+
+<ul>
+
+    <li><a href="HTMLBasics.html">HTML Basics</a></li> |
+    <li><a href="list.html">Lists</a></li> |
+    <li><a href="Introduction.html">Introduction</a></li> |
+    <li><a href="forms.html">Forms</a></li> |
+    <li><a href="contactus.html">Contact Us</a></li>
+</ul>
+<h1>Dennis [Console]</h1>
+
+<form action="">
+
+            <div class="note">
+                <h2>Registration Form
+            </div>
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Enter First Name"><br>
+
+            <label for="secondname">Second Name</label>
+            <input type="text" id="secondname" name="secondname" placeholder="Enter Second Name"><br>
+
+            <label for="surname">Surname</label>
+            <input type="text" id="surname" name="surname" placeholder="Enter Surname"><br>
+
+            <label for="emailaddress">Email Address</label>
+            <input type="email" id="emailaddress" name="emailaddress" placeholder="Enter email address"><br>
+
+            <label for="phonenumber">Phone Number</label>
+            <input type="text" id="phonenumber"  name="phonenumber" placeholder="Enter Phone Number"><br>
+
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob"><br>
+
+            <label for="studentclass">Choose you class</label>
+            <select class="form-control" name="studentclass" id="studentclass">
+                <option value="Firefox">Firefox</option>
+                <option value="Explorers">Explorers</option>
+                <option value="MIT">Firefox</option>
+                <option value="Explorers">Explorers</option>
+            </select><br>
+
+            <label for="male">Male</label>
+            <input type="radio"  id="male" name="gender"/><br>
+
+            <label for="female">Female</label>
+            <input type="radio"  id="female" name="gender"/><br>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password"/><br>
+
+            <input type="submit" value="Sign me up please" name="submit"/><br>
+
+</form>
+
+
+
+</body>
+</html>
