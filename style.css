@@ -31,11 +31,8 @@ a{
  ul{
      color: black;
      font-family: akaDora, sans-serif;
-     background: aqua;
      padding: 30px;
      font-size: 20px;
-     position: absolute;
-
  }
  ol{
      font-family: "Century Gothic", serif;
